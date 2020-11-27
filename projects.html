@@ -3,54 +3,77 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
     
-body { 
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
-.header {
-  overflow: hidden;
-  background-color: lightblue;
-  padding: 10px 10px;
-}
+            .container {
+                padding: 2px 16px;
+                text-align:center;
+                /*  border-top: 1px solid black;*/
+            }
+            .border-top{
+                border-top: 1px solid black
+            }
+            .subject_img {
+                height: 200px;
+                width: 200px;
+                border-radius: 5px;
+            }
+            .background_img{
+                background-image: url()
+            }
+            .underline {
+                text-decoration: none;
+            }
+            .button{
+                margin-bottom: 5px
+            }
 
-.header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
-}
 
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
-  font-family:serif
-}
+            body { 
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
 
-.header a:hover {
-  background-color: #ddd;
-  color: black;
-}
+            .header {
+                overflow: hidden;
+                background-color: lightblue;
+                padding: 10px 10px;
+            }
 
-.header-right {
-  float: right;
-}
+            .header a {
+                float: left;
+                color: black;
+                text-align: center;
+                padding: 12px;
+                text-decoration: none;
+                font-size: 18px; 
+                line-height: 25px;
+                border-radius: 4px;
+            }
 
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .header-right {
-    float: none;
-  }
-}
+            .header a.logo {
+                font-size: 25px;
+                font-weight: bold;
+                font-family:serif
+            }
+
+
+            .header-right {
+                float: right;
+            }
+            .menu__item:hover{
+                background-color: #00a3c7
+            }
+
+            @media screen and (max-width: 500px) {
+                .header a {
+                    float: none;
+                    display: block;
+                    text-align: center;
+                }  
+                .header-right {
+                    float: none;
+                }
+            }
     .project_report{
         text-align: center;
     }
@@ -61,12 +84,12 @@ body {
 <div class="header">
   <a class="logo">BelVenkatesh</a>
   <div class="header-right">
-    <a href="./home.html"><b>Home</b></a>
-    <a href="./projects.html"><b>Projects</b></a>
-    <a href="./contact.html"><b>Contact</b></a>
+    <a href="./home.html" class="menu__item"><b>Home</b></a>
+    <a href="./projects.html" class="menu__item"><b>Projects</b></a>
+    <a href="./contact.html" class="menu__item"><b>Contact</b></a>
   </div>
 </div>
-<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/g4ins-4cLdU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p align="center"><iframe width="50%" height="50%" src="https://www.youtube.com/embed/g4ins-4cLdU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 <h2 class="project_report">To view the project report <a href="https://drive.google.com/drive/folders/1yLcIlzVQJRcCMt_-3ki1kX0dFOxYzEWU?usp=sharing" target="_blank"; style="text-decoration: none">Click here </a></h2>
     
  <h2 class="project_report"><a href="https://drive.google.com/drive/folders/1dCHub7BRrnHmtr__xlshs7vXx1CVmsOQ?usp=sharing" target="_blank"; style="text-decoration: none">Download Apk</a></h2>
