@@ -3,6 +3,7 @@
                 <head>  
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
                       <title>Venkatesh Belday</title>
+                    <link rel="icon" type="image/png" href="VLOGO.png" />
                  <meta name="viewport" content="width=device-width, initial-scale=1">
                     <style>
 
@@ -38,9 +39,6 @@
                         .menu__item:hover{
                             background-color: #00a3c7
                         }
-                        .details{
-                            text-align: center
-                        }
                         @media screen and (max-width: 500px) {
                             .header a {
                                 float: none;
@@ -70,16 +68,16 @@
                             font-size: 18px;
                             margin-bottom: 40px
                         }
-                        .button {
-                           // height: 20px;
+                        .downloadButton {
+                            height: 20px;
                             widows: 100%;
                             background-color: DodgerBlue;
                             color: white;
                             padding: 10px 10px;
-                            border-radius: 10px;
+                            border-radius: 20px;
                             text-decoration: none;
                             margin-left: 20px;
-                            border: 1px solid black;
+                            border: 1px solid #2370bb;
                             
                         }
                         .button:hover {
@@ -91,50 +89,32 @@
                             font-size: 20px;
                             font-weight:bold    
                         }
-                        .subject_card{
-                             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-                            transition: 0.3s;
-                            width: 200px;
-                            border: 1px groove black;
-                            border-radius: 5px;
-                            text-align: center;
-                            margin: 20px;
-                            display: inline-block;
-                            background-color: white
-                        }
-                        .container {
-                                padding: 2px 16px;
-                                text-align:center;
-                            }
-                        .border-top{
-                                border-top: 1px solid black
-                            }
-                        .subject_img {
-                                height: 200px;
-                                width: 200px;
-                                border-radius: 5px;
-                            }
-                        .subject_card:hover {
-                                    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-                                }
-                        .underline {
-                                    text-decoration: none;
-                                }
+                       
+                         
                         .download_icon{
                             margin-right: 10px
                         }
                         .line{
-                            border: 1px solid black;
-                            width: 95%;
-                            color: black;
-                            margin-left: 30px
+                            border: 1px solid #eeeeee;
+                            margin: 20px;
+                        }
+                        
+                        @media print {
+                          #downloadButton {
+                            display: none;
+                          }
+                        }
+                        .print-mood-hide-button{
+                            text-align: center;
+                            margin-bottom: 20px;
+                            id=downloadButton;
                         }
                         
                         
                        
-                        
                     </style>
                 </head>
+                
                 <body style="background-color:#B7E9F7">  
                     <div class="header">
                         <a class="logo" href="./home.html">BelVenkatesh</a>
@@ -175,28 +155,32 @@
                                     </ol>
                                 </div>
                         
-                        
-                        <div>
+                            <div class="line"></div>
+                    <div>
                             <h2 class="index">UNIT- 1</h2>
+                            
                             <p class="unit_name">Introduction to Python:</p>
+                            
                                 <div class="content_body">
                                     <p>
                                         Features of Python Language, Data Types, Operators, Expressions, Control Statement,Standard I/O Operations.
                                     </p>
                                 </div>
-                            <p class="unit_name">Functions and Modules:</p>
+                                    <p class="unit_name">Functions and Modules:</p>
+                        
                             <div class="content_body">
                                     <p>
                                       Declaration and Definition Function Calling, More on Defining Functions, Recursive Functions, Modules, Packages in Python,Built-in Functions.
                                     </p>
-                                </div>
-                          
-                            <div style="text-align: center;margin-bottom: 20px">
-                                <a href="https://drive.google.com/drive/folders/1ov3U2MEi_WY8VV1SI7Bko-H5dkoBSVZH?usp=sharing" target="_blank"class="button" ><i class="fa fa-download download_icon"></i>Download Notes</a>
                             </div>
+                          
+                            <div style="text-align: center;margin-bottom: 20px" id="downloadButton">
+                                <a href="https://drive.google.com/drive/folders/1ov3U2MEi_WY8VV1SI7Bko-H5dkoBSVZH?usp=sharing" target="_blank" class="downloadButton" ><i class="fa fa-download download_icon"></i>Download Notes</a>
+                            </div>
+                        
                               <div class="line"></div>
                            
-                        </div>
+                    </div>
                     
                         <div>
                             <h2 class="index">UNIT- 2</h2>
@@ -212,6 +196,10 @@
                                       List, Tuples, Dictionaries.
                                     </p>
                                 </div>
+                            <div style="text-align: center;margin-bottom: 20px" id="downloadButton">
+                                <a href="https://drive.google.com/drive/folders/1tQpg7EKwwn7EvuH_9ht0GVEZcGExKyLO?usp=sharing" target="_blank"class="downloadButton" ><i class="fa fa-download download_icon"></i>Download Notes</a>
+                            </div>
+                              <div class="line"></div>
                         </div>
                         
                          <div>
@@ -223,6 +211,11 @@
                                         The __Init__Method, ClassVariables and Object Variables, The _Del__Method, Public and Private Data Members, Private Methods, Buil-in Functions to Check,Get, Set and Delete Class Attributes, Garbage Collection(Destroying Objects).
                                     </p>
                                 </div>
+                              <div style="text-align: center;margin-bottom: 20px" id="downloadButton">
+                                <a href="https://drive.google.com/drive/folders/1k9DdsgTkMwyGWT5Y9cZBmtgRgQlR-pIV?usp=sharing" target="_blank"class="downloadButton" ><i class="fa fa-download download_icon"></i>Download Notes</a>
+                            </div>
+                              <div class="line"></div>
+                             
                         </div>
                         
                         <div>
@@ -239,6 +232,11 @@
                                       Introduction, Implementing Operator Overloading, Overriding Methods.
                                     </p>
                                 </div>
+                            <div style="text-align: center;margin-bottom: 20px" id="downloadButton">
+                                <a href="https://drive.google.com/drive/folders/1Lm_GAbqKbn7KYIsLEYz4W6JY-a4le3e2?usp=sharing" target="_blank"class="downloadButton" ><i class="fa fa-download download_icon"></i>Download Notes</a>
+                            </div>
+                              <div class="line"></div>
+                            
                         </div>
                         
                         <div>
@@ -255,55 +253,10 @@
                                       Introduction, Handling Exception, Multiple Except Blocks and Multiple Exceptions, Finally Block.<br>Case Study: Data Science.
                                     </p>
                                 </div>
-                        </div>
-                        
-                        
-                        <div style="text-align: center">
-                            
-                            
-                             <a href="https://drive.google.com/drive/folders/1tQpg7EKwwn7EvuH_9ht0GVEZcGExKyLO?usp=sharing" target="_blank" class="underline">
-                                <div class="subject_card">
-                                   <img src="https://logicproindia.com/wp-content/uploads/2016/05/python-logo.jpg" alt="Python Image" class="subject_img">
-                                    <div class="container border-top">
-                                        <h4><b>unit - 2</b></h4> 
-                                    </div>
-                                </div>
-                            </a>
-                            
-                             <a href="https://drive.google.com/drive/folders/1k9DdsgTkMwyGWT5Y9cZBmtgRgQlR-pIV?usp=sharing" target="_blank" class="underline">
-                                <div class="subject_card">
-                                   <img src="https://logicproindia.com/wp-content/uploads/2016/05/python-logo.jpg" alt="Python Image" class="subject_img">
-                                    <div class="container border-top">
-                                        <h4><b>UNIT - 3</b></h4> 
-                                    </div>
-                                </div>
-                            </a>
-                            
-                             <a href="https://drive.google.com/drive/folders/1Lm_GAbqKbn7KYIsLEYz4W6JY-a4le3e2?usp=sharing" target="_blank" class="underline">
-                                <div class="subject_card">
-                                   <img src="https://logicproindia.com/wp-content/uploads/2016/05/python-logo.jpg" alt="Python Image" class="subject_img">
-                                    <div class="container border-top">
-                                        <h4><b>UNIT - 4</b></h4> 
-                                    </div>
-                                </div>
-                            </a>
-                            
-                            
-                            
-                             <a href="https://drive.google.com/drive/folders/1ndv20k3IZ4YNdfdoYJd4xqyevl1bdyme?usp=sharing" target="_blank" class="underline">
-                                <div class="subject_card">
-                                   <img src="https://logicproindia.com/wp-content/uploads/2016/05/python-logo.jpg" alt="Python Image" class="subject_img">
-                                    <div class="container border-top">
-                                        <h4><b>UNIT - 5</b></h4> 
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                            
-                    </div>
-                    
-                    
-                    
-                    
+                            <div style="text-align: center;margin-bottom: 20px" id="downloadButton">
+                                <a href="https://drive.google.com/drive/folders/1ndv20k3IZ4YNdfdoYJd4xqyevl1bdyme?usp=sharing" target="_blank"class="downloadButton" ><i class="fa fa-download download_icon"></i>Download Notes</a>
+                            </div>
+                        </div>   
+                    </div>    
                 </body>
             </html> 
